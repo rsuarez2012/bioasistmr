@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+/* main list style */
+ul#nav { 
+	list-style:none;
+	padding: 0; 
+	margin:  0px 15px 15px 0; 
+	width: 100%;
+}
+/* heading links */
+ul#nav li a { 
+	display: block; 
+	height: 28px; 
+	line-height: 28px; 
+	background: #CEDCED; 
+	border-bottom: 1px solid #b9b09d;
+	border-top: 1px solid #eeebe7; 
+	color: #000099; 
+	text-decoration: none; 
+	text-align: left;
+	padding-left: 5px;
+	font-size: 10pt;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	
+}
+/* heading links hover effect */
+ul#nav li a:hover {
+	background: #B2D5FF;	
+}
+
+/* sub heading list */
+ul#nav ul {
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0;
+}
+/* sub heading links */
+ul#nav ul li a { 
+	display: block; 
+	height: 30px; 
+	line-height: 30px; 
+	color: #595441;
+	background: #ffffff; 
+	text-decoration: none; 
+	border-bottom: 1px solid #d7d1c6; 
+	font-size: 9pt;
+}
+/* sub heading links hover effect */
+ul#nav ul li a:hover {
+	background: #E1EFFF;
+	color: #444;
+}

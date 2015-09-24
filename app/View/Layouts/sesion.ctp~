@@ -1,0 +1,40 @@
+<?php
+$sitioNombre = 'Sistema de Control de Asistencia - UNERG .:. AIS';
+$sitioUrl = 'http://localhost/bioasistmr/';
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<?php echo $this->Html->charset(); ?>
+	<title>
+		<?php echo $sitioNombre; ?>:		
+	</title>
+	<?php		
+		echo $this->Html->css(array('sesion','slide'));
+		echo $this->Html->script(array('jquery-1.8.0', 'jquery-ui-1.8.custom.min', 'jquery_validate', 'funciones', 'slide', 'jquery-popup'));
+		echo $this->fetch('meta');
+		echo $this->fetch('css');
+		echo $this->fetch('script');
+	?>
+	<script type="text/javascript">
+        $(function(){
+                $('#sesionForm').validate({
+                        rules: {
+                        'usuario': 'required',
+                        'clave': 'required'                   
+                        },
+                        messages: {
+                        'usuario': 'Requerido!',
+                        'clave': 'Requerido!'                    
+                        },                                      
+                        submitHandler: function(form){                                
+                                form.submit();
+                        }
+                });
+        });    
+        </script>       
+</head>
+<body onLoad="muestraReloj()">
+		<?php echo $this->fetch('content'); ?>
+</body>
+</html>
