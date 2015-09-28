@@ -56,7 +56,7 @@
 	<div id="spanreloj"></div>
 	<?php echo $this->Form->end(); ?>	
 </div>
-<div id="pie">Desarrollado por: Silvia Perez & Ana Perez &copy; 2012</div>
+<div id="pie">Desarrollado por: Tecnomundo SystemsS &copy; 2012</div>
 
 </div>
 <script type="text/javascript">

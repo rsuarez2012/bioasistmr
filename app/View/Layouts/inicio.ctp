@@ -22,7 +22,7 @@
 
 $sitioNombre = 'Sistema de Control de Asistencia - UNERG .:. AIS';
 $sitioUrl = 'http://localhost/bioasistmr/';
-$sitioPie = $sitioNombre.' &copy; 2012 <br/> Desarrollado por: Silvia Perez & Ana Perez';
+$sitioPie = $sitioNombre.' &copy; 2012 <br/> Desarrollado por: Tecnomundo Systems';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
